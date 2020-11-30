@@ -1,13 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: activity2
 
 # Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-  jobs:
-  pull_request:
+on: push
+jobs:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - name: Test

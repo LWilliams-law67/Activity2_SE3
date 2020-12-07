@@ -9,6 +9,9 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./actions/activity2
         with:
-          AGE: default
-          NAME: default
+          AGE: $AGE
+          NAME: $NAME
           YEARS: 64
+    env:
+      NAME: ${{secrets.NAME}}
+      AGE: ${{secrets.AGE}}

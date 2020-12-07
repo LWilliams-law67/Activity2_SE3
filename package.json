@@ -1,0 +1,23 @@
+{
+  "name": "activity2_se3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LWilliams-law67/Activity2_SE3.git"
+  },
+  "author": "Luke Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LWilliams-law67/Activity2_SE3/issues"
+  },
+  "homepage": "https://github.com/LWilliams-law67/Activity2_SE3#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}

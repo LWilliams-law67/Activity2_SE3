@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./actions/activity2
         with:
-          AGE: 
-          NAME:
+          AGE: default
+          NAME: default
           YEARS: 64

@@ -1,13 +1,15 @@
 name: "activity2"
 author: "Luke Williams"
-
+env:
+  NAME: ${{secrets.NAME}}
+  AGE: ${{secrets.AGE}}
 inputs:
   AGE:
     required: true
-    default: 0
+    default: $AGE
   NAME:
     required: true
-    default: "you"
+    default: $NAME
   YEARS:
     required: true
     default: 5

@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./actions/activity2
+      - uses: actions/activity2
         with:
           AGE: $AGE
           NAME: $NAME
